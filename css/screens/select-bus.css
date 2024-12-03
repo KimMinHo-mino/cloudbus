@@ -4,12 +4,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url('../../img/sun-remove.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
 
 .select-bus h1 {
     position: relative;
-    top: -200px;
+    top: -150px;
 
     font-weight: bold;
     font-size: 30px;
@@ -19,6 +22,12 @@
 .select-bus .button {
     position: relative;
     top: -200px;
-
     margin: 20px 0px;
+}
+
+.select-button {
+    width: 50vw;
+    height: 16vw;
+
+    font-size: 6vw;
 }
