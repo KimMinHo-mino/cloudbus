@@ -1,0 +1,24 @@
+.select-bus {
+    display: flex;
+    justify-content: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.select-bus h1 {
+    position: relative;
+    top: -200px;
+
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.select-bus .button {
+    position: relative;
+    top: -200px;
+
+    margin: 20px 0px;
+}

@@ -1,20 +1,8 @@
 .home {
-    width: 100%;
-    height: 100vh;
-
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
-    
-    background-image: url('../../img/clear.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    padding: 20px 10px;
-    box-sizing: border-box;
 }
 
 .home__title {
@@ -40,24 +28,6 @@
     font-weight: 700;
     opacity: 0.8;
 }
-
-.home button {
-    position: relative; 
-    top: 2vh;
-
-    width: 32vw;
-    height: 8vw;
-    background-color: #b8c7ff;
-
-    border-radius: 3vw;
-    border: 0px;
-
-    font-size: 3vw;
-    font-family: "Gowun Batang", serif;
-    font-weight: bold;
-}
-
-
 
 @keyframes button-hover-animation {
     0% {
