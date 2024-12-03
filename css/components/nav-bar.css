@@ -1,16 +1,4 @@
-html {
- font-Family: "Gowun Batang", serif;         
-}
-
-
-body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-  
-
-header {
+.nav-bar {
     width: 100%;
 
     margin: 0;
@@ -26,41 +14,41 @@ header {
     position: fixed;
 }
 
-header img {
+.nav-bar img {
     height: 40px;
     max-width: 100%;
 }
 
-header i {
+.nav-bar i {
     font-size: 30px;
     cursor: pointer; 
 }
 
 
 @media (max-width: 768px) {
-    header {
+    .nav-bar {
         padding: 15px 15px; 
     }
 
-    header img {
+    .nav-bar img {
         height: 35px; 
     }
 
-    header i {
+    .nav-bar i {
         font-size: 20px;
     }
 }
 
 @media (max-width: 480px) { 
-    header { 
+    .nav-bar { 
         padding: 10px 10px; 
     }
 
-    header img {
+    .nav-bar img {
         height: 30px; 
     }
 
-    header i {
+    .nav-bar i {
         font-size: 15px;
     }
 }

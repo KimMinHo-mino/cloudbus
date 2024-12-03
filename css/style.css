@@ -1,0 +1,18 @@
+@import "reset.css";
+
+/* Components */
+@import "components/nav-bar.css";
+
+/* Screens */
+@import "screens/home.css";
+
+   
+body {
+    font-Family: "Gowun Batang", serif;  
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
