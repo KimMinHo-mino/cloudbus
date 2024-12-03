@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cloudbus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Sans+KR:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="nav-bar">
+        <a href="home.html"><img src ="img/logo.png"></a>
+        <i class="fa-solid fa-bars"></i>
+    </header>
+    <main class="main bus-info">
+        <h1>실시간 버스 정보</h1>
+        <section class="bus-info__status">
+            <div class="bus-info__item">
+                <span class="label">버스 내부 혼잡도:</span>
+                <span class="value" id="congestion-level">보통</span>
+            </div>
+            <div class="bus-info__item">
+                <span class="label">정류장 인원:</span>
+                <span class="value" id="available-seats">10명</span>
+            </div>
+            <div class="bus-info__item">
+                <span class="label">탑승 가능 인원:</span>
+                <span class="value" id="boarding-status">가능</span>
+            </div>
+        
+            <div class="bus-info__item">
+                <span class="label">탑승 가능 여부:</span>
+                <span class="value" id="current-stop">가능</span>
+            </div>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/a38d469f27.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -12,22 +12,52 @@
 
 .select-bus h1 {
     position: relative;
-    top: -150px;
+    top: -40px;
 
     font-weight: bold;
-    font-size: 30px;
+    font-size: 8vw;
     margin-bottom: 100px;
 }
 
 .select-bus .button {
     position: relative;
-    top: -200px;
+    top: -30vw;
     margin: 20px 0px;
 }
 
 .select-button {
-    width: 50vw;
-    height: 16vw;
+    width: 50vw; 
+    height: 15vw; 
+    font-size: 6vw; 
+}
 
-    font-size: 6vw;
+
+@media (max-width: 768px) {
+    .select-bus h1 {
+        position: relative;
+        top: -140px; 
+        font-weight: bold;
+        margin-bottom: 80px;
+    }
+
+    .select-bus .button {
+        position: relative;
+        top: -25vw; 
+        margin: 15px 0;
+    }
+
+
+@media (max-width: 480px) {
+    .select-bus h1 {
+        position: relative;
+        top: -100px; 
+        margin-bottom: 60px;
+    }
+
+    .select-bus .button {
+        position: relative;
+        top: -100px;
+        margin: 10px 0;
+    }
+    }
 }

@@ -1,13 +1,20 @@
 @import "reset.css";
+@import "variables.css";
+
 
 /* Components */
 @import "components/nav-bar.css";
 @import "components/button.css";
+@import "components/bus-info.css";
+@import "components/footer.css";
 
 /* Screens */
 @import "screens/home.css";
 @import "screens/select-bus.css";
-   
+
+
+
+
 body {
     font-Family: "Gowun Batang", serif;  
     width: 100%;

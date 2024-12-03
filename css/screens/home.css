@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../../img/clear.png');
+    background-image: url('../../img/sun-remove.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
 
 .home__title {
     position: relative;
-    top: -3vh;
+    top: -20vh;
 
     display: flex;
     flex-direction: column;
@@ -19,17 +19,30 @@
 }
 
 .home__title h1 {
-    font-size: 12vw;
+    font-size: 14vw;
     font-weight: 700;
     color: #9aafff;
 }
 
 .home__title h3 {
     position: relative;
-    top: 1vh;
+    top: 2vh;
+    
 
-    font-size: 4vw;
+    font-size: 5vw;
     font-weight: 700;
     opacity: 0.8;
 }
 
+
+.home a {
+    position: relative;
+    top: -10vh;
+}
+
+.button-main {
+    width: 40vw;
+    height: 12vw;
+
+    font-size: 4vw;
+}

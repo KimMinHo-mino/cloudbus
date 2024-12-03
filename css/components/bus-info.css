@@ -1,0 +1,70 @@
+.bus-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../img/sun-remove.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+
+.bus-info h1 {
+    font-size: 6vw;
+
+    position: relative;
+    top: -120px;
+    font-weight: bold;
+
+    background-color: var(--light-blue);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 2vw;
+}
+
+.bus-info__status {
+
+    font-size: 4vw;
+    position: relative;
+    top: -100px;
+    margin-top: 20px;
+    width: 50vw;
+}
+
+.bus-info__item {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.bus-info__item .label {
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 768px) {
+    .bus-info h1 {
+        top: -140px; 
+    }
+
+    .bus-info__status {
+        top: -100px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .bus-info h1 {
+        top: -120px; 
+    }
+    .bus-info__status {
+        top: -80px;
+    }
+}
